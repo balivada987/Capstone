@@ -18,7 +18,7 @@ auto ml model has been implemented which provided an accuracy of nearly 86 % .
 
 
 
-## Hyper Parameter Tuning
+# Implemented Logistic Regression and tuned hyper parameters such as C and numberof iterations  using HyperConfig 
 Hyperparameter tuning is done on logistic regression tuning hyperparameters such as  C and n=number of iterations
 c = regularization regulator
 n = number of iterations
