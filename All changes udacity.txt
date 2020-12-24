@@ -1,0 +1,71 @@
+1. File containing Environment Details--
+2. Register Hyperparameter model--
+3. Screenshot of Parameters tuned--
+4. Hyperparameter execution screenshot--
+5.Screenshot of model register model--
+
+6. Video of 1 to 5 mins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. The model may need some improvement in the future, and you would need to document what could be done differently to improve the model at such time. 
+This needs to be added in its own section, like Future Improvement or Suggestions For Future Improvements, then list all 
+the improvements you see fit for future revisions
+
+
+Future Improvements
+1. Perform oversampling or undersampling of dataset to fetch a balanced approad.
+2. Perform standardization of all the variables and after that implement the model.
+3. Implement Pipeline approach and parallelize pipelines to improve the model perfomance
+4. Schedule the pipelines using Schedule to reduce manual execution
+5. Feature Engineering canbe done on the dataset using certain techniques such as StepAIC, PCA etc
+
+
+Overview of Dataset:
+1. The dataset is uploaded from the system using upload command and fetched the dataset from datastore from path data/heart_failure_clinical_records_dataset.csv
+2. The dependent variable in the  dataset is IS_DEATH to predict whether a person will die or not based on certain set of columns.
+3. "data/heart_failure_clinical_records_dataset.csv" is data source.
+
+AutoML Configuration:
+1. Since the dependent variable is binary  the task="classification"
+2. Metric considered for model evaluation is "accuracy"
+3. Traning_data = data is passed
+4. allowed_models are all the different models we want to execute
+5. n_cross_validations= no. of cross validations considered are 3
+
+experiment_timeout_minutes=30,
+    task='classification',
+    compute_target=compute_target,
+    primary_metric="accuracy",
+    training_data=dataset,
+    label_column_name='DEATH_EVENT',
+    #allowed_models=["LightGBM","RandomForest"],
+    n_cross_validations=3)
+	
+6. Hyperparameter tuning is done on logistic regression tuning hyperparameters such as  C and n=number of iterations
+c = regularization regulator
+n = number of iterations
+
+The best run has C= 0.1 and number of iterations as 38
+
+
+The model is deployed as a webservice and can be consumed by senting a json input.
+Here we are getting [1,1] as result
+
+ 
