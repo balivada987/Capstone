@@ -23,8 +23,7 @@ Hyperparameter tuning is done on logistic regression tuning hyperparameters such
 c = regularization regulator
 n = number of iterations
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%201.PNG)
-# Hyperparameter model Registration
-![alt text](https://github.com/balivada987/Capstone/blob/main/HyperParameterRegisterModel.PNG)
+
 
 ## Termination policy used is Bandit Policy and RandomParameter Sampling is done
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%202.PNG)
@@ -37,10 +36,13 @@ n = number of iterations
  The best run has C= 0.1 and number of iterations are 38. C is the regularization parameter to get better accuracy and reduce overfit error.
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%204.PNG)
 
-## Best Run Run Details Widget displaying accuracy of 0.8 and regularization strength of 0.1 and Run ID
+# Best Run Run Details Widget displaying accuracy of 0.8 and regularization strength of 0.1 and Run ID
 
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%205.PNG)
-## Since the accuracy of the above model is 80 % Auto ML model has been used and obtained an accuracy of 86.6 %  using Voting Ensemble model
+
+# Hyperparameter model Registration
+![alt text](https://github.com/balivada987/Capstone/blob/main/HyperParameterRegisterModel.PNG)
+# Since the accuracy of the above model is 80 % Auto ML model has been used and obtained an accuracy of 86.6 %  using Voting Ensemble model
 
 
 ## Auto ML
