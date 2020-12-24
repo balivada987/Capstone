@@ -58,9 +58,10 @@ Here I considered metrics as accuracy we can also consider other metrics such as
 ![alt text](https://github.com/balivada987/Capstone/blob/main/AutoML1.png?raw=true)
 ![alt text](https://github.com/balivada987/Capstone/blob/main/AutoML%202.png?raw=true)
 ![alt text](https://github.com/balivada987/Capstone/blob/main/AutoML%203.png?raw=true)
+# Register AutoML model
 ![alt text](https://github.com/balivada987/Capstone/blob/main/AutoMLModelRegistration.PNG)
 
- AutoML model registration
+
  ![alt text](https://github.com/balivada987/Capstone/blob/main/AutoML%203.png?raw=true)
 
 ## Environment is fetched from best run environment
