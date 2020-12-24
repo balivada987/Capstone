@@ -50,7 +50,7 @@ AutoML Configuration:
 1. Since the dependent variable is binary  the task="classification"
 2. Metric considered for model evaluation is "accuracy"
 3. Dataset is passed for training
-4. allowed = Building all the models in default so that we can have an overview which model is doing better
+4. Building all the models in default so that we can have an overview which model is doing better
 5. no. of cross validations considered are 3
 
 In this case I am selecting default case in allowed_models  rather if we want to use some specific models we can use edit to required models
