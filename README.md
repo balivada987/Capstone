@@ -28,7 +28,7 @@ n = number of iterations
 ## Termination policy used is Bandit Policy and RandomParameter Sampling is done
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%202.PNG)
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%203.PNG)
- Therea are two main parameters that were tune C and number of iterations  C is tuned in the range(0.001,0.01,0.1,1,10,100,1000)
+ Therea are two main parameters that were tune C and number of iterations  C is tuned in the range(0.00001,0.001,0.01,0.1,1,10,100,1000,10000)
  number of iterations are tuned in the range (10, 200)
  ![alt text](https://github.com/balivada987/Capstone/blob/main/HypeParameterC_iter.PNG)
  
