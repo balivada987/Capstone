@@ -20,16 +20,18 @@ auto ml model has been implemented which provided an accuracy of nearly 86 % .
 
 # Implemented Logistic Regression and tuned hyper parameters such as C and numberof iterations  using HyperConfig 
 Hyperparameter tuning is done on logistic regression tuning hyperparameters such as  C and n=number of iterations
+
+![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%201.PNG)
 c = regularization regulator
 n = number of iterations
-![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%201.PNG)
-
 
 ## Termination policy used is Bandit Policy and RandomParameter Sampling is done
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%202.PNG)
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%203.PNG)
  Therea are two main parameters that were tune C and number of iterations  C is tuned in the range(0.01,0.1,1,10,100)
  number of iterations are tuned in the range (0, 100)
+ ![alt text](https://github.com/balivada987/Capstone/blob/main/HypeParameterC_iter.PNG)
+ 
  ![alt text](https://github.com/balivada987/Capstone/blob/main/HyperParametersRunDetails.PNG)
  
  
