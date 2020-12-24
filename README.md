@@ -22,7 +22,7 @@ auto ml model has been implemented which provided an accuracy of nearly 86 % .
 Hyperparameter tuning is done on logistic regression tuning hyperparameters such as  C and n=number of iterations
 
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%201.PNG)
-c = regularization regulator
+c = regularization parameter
 n = number of iterations
 
 ## Termination policy used is Bandit Policy and RandomParameter Sampling is done
@@ -38,7 +38,7 @@ n = number of iterations
  The best run has C= 0.1 and number of iterations are 38. C is the regularization parameter to get better accuracy and reduce overfit error.
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%204.PNG)
 
-# Best Run Run Details Widget displaying accuracy of 0.8 and regularization strength of 0.1 and Run ID
+# Best Run - Run Details Widget displaying accuracy of 0.8 and regularization strength of 0.1 and Run ID
 
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%205.PNG)
 
