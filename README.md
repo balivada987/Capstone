@@ -32,7 +32,8 @@ n = number of iterations
  Therea are two main parameters that were tune C and number of iterations  C is tuned in the range(0.01,0.1,1,10,100)
  number of iterations are tuned in the range (0, 100)
  ![alt text](https://github.com/balivada987/Capstone/blob/main/HyperParametersRunDetails.PNG)
- https://github.com/balivada987/Capstone/blob/main/HyperParametersRunDetails.PNG
+ 
+ 
  The best run has C= 0.1 and number of iterations are 38. C is the regularization parameter to get better accuracy and reduce overfit error.
 ![alt text](https://github.com/balivada987/Capstone/blob/main/Hyper%204.PNG)
 
